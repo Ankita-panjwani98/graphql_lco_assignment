@@ -1,0 +1,39 @@
+/* body{
+    background: #444;
+} */
+
+.bookDetail{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+   height: 100%;
+   background: #AD1457;
+   padding: 30px;
+   overflow: auto;
+   box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+   color: snow;
+   box-sizing: border-box;
+   
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.moon{
+    color: white;
+}
+.sun{
+    color: yellow;
+}
+.darkMode{
+    background-color: #444;
+    color: snow;
+}

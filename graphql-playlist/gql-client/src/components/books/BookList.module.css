@@ -1,0 +1,38 @@
+.booksList{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #AD1457;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    color: #AD1457;
+}
+
+.heading{
+    text-align: center;
+    color: #444;
+}
+
+.BooksContainer{
+
+bottom:  0;
+height: 50%;  
+position: fixed;
+
+    width: 60%;
+}
+
+ .darkMode{
+    background: #444;
+    color: white;
+ }  
+
+.darkMode h1{
+    color: snow;
+}
+.darkModeList{
+    border: 1px solid snow;
+    color: snow;
+}
